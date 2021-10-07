@@ -47,7 +47,7 @@ def greetAdmin():
 
 
 @app.route('/<name>')
-def greeting(name):
+def greet(name):
     return render_template('greet.html', name_html=name)
 
 
