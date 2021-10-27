@@ -39,7 +39,7 @@ At the end of the this hands-on training, students will be able to;
 - pip3 install sqlalchemy
 - pip3 install Flask-SQLAlchemy
 
-## And ofcours if you want to work on AWS EC2, you should transform like down and then  run these codes
+## And ofcourse if you want to work on AWS EC2, you should transform like down and then  run these codes
 
 - 1  sudo yum update -y
 - 2  python3 --version
