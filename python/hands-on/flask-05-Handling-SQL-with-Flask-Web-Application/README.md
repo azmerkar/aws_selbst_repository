@@ -33,7 +33,21 @@ At the end of the this hands-on training, students will be able to;
 
 - Part 3 - Install Python and Flask framework on Amazon Linux 2 EC2 Instance using RDS
 
+## Before you start to work on your local pc, you should run these codes to download all necessary libraries
 
+- pip3 install flask-mysql
+- pip3 install sqlalchemy
+- pip3 install Flask-SQLAlchemy
+
+## And ofcours if you want to work on AWS EC2, you should transform like down and then  run these codes
+
+- 1  sudo yum update -y
+- 2  python3 --version
+- 3  sudo pip3 install flask
+- 4  sudo pip3 install flask-mysql
+- 5  sudo pip3 install sqlalchemy
+- 6  sudo pip3 install Flask-SQLAlchemy
+  
 ## Part 1 - Write a Sample Web Application with SQLite and database implementation on GitHub Repo
 
 - Write an application with database implementation using `SQLite` and save the complete code as `app-with-sqlite.py` under `hands-on/flask-05-handling-sql-on-ec2-linux2` folder.
