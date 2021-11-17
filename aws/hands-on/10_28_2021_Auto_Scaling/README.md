@@ -217,7 +217,7 @@ Keep it as it is
    In this section , we will just use `user data` settings. Please paste the script below into the `user data` field.
 
 ```bash
-#! /bin/bash
+#!/bin/bash
 
 #update os
 yum update -y
